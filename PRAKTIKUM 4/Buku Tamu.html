@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Buku Tamu</title>
+</head>
+
+<body>
+    <h1>Buku Tamu</h1>
+    <p>Komentar dan saran sangat kami butuhkan untuk meningkatkan kualitas situs kami.</p>
+    <hr>
+
+    <form action="proses_bukutamu.php" method="post">
+        <label for="nama">Nama Anda:</label>
+        <input type="text" id="nama" name="nama" size="25" maxlength="50">
+        <br>
+        <label for="email">Email address:</label>
+        <input type="text" id="email" name="email" size="25" maxlength="50">
+        <br>
+        <label for="komentar">Komentar:</label>
+        <textarea id="komentar" name="komentar" cols="40" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Ulangi">
+    </form>
+</body>
+
+</html>
